@@ -81,9 +81,7 @@ module.exports = {
 			const err = createErr(404, "Unable to get array of random numbers. Check that 3 numbers are being passed as parameters e.g. /d/1/10/50");
 	  	res.status(404).send(err);
 		}
-
 	}
-
 }
 
 })();
