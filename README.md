@@ -23,10 +23,8 @@ Pass number of sides as a route parameter. Returns a random number between 1 and
 
 #### For Example:
 * /d/:x
-* /d/3
 * /d/4
 * /d/6
-* /d/10
 * /d/20
 
 ## Get a random number between x and y 
