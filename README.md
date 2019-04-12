@@ -1,4 +1,4 @@
-# Express.js Dice Rolling / Random Number API
+# Express.js Random Number API
 
 Simple random number API created with Express.js. Includes unit testing with Mocha and Chai.
 
@@ -18,7 +18,7 @@ There are 3 routes:
 * */d/:min/:max* - Get a random number between x and y
 * */d/:min/:max/:qty* - Get an array of random numbers between x and y
 
-## Roll a dice with x sides
+## Get a random number between 1 and x (Roll a dice with x sides)
 Pass number of sides as a route parameter. Returns a random number between 1 and number of sides.
 
 #### For Example:
